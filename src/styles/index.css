@@ -1,3 +1,37 @@
+@font-face {
+  font-family: "Carlito";
+  src: url("../assets/fonts/Carlito/Carlito-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Carlito";
+  src: url("../assets/fonts/Carlito/Carlito-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Carlito";
+  src: url("../assets/fonts/Carlito/Carlito-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../assets/fonts/Open_Sans/OpenSans-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../assets/fonts/Open_Sans/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -5,4 +39,8 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "OpenSans", sans-serif;
 }
