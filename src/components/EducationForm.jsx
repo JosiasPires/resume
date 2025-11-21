@@ -29,7 +29,7 @@ export default function EducationForm({info, setInfo}) {
             <h2>Education</h2>
             {info.length > 0 && (
                 info.map(education => {
-                    return <div key={education.id}>
+                    return <div key={education.id} className="entry">
                         <button type="button" onClick={() => removeEducation(education.id)}>Remove</button>
                         <label>
                             School name: <input type="text" name="school" value={education.school} onChange={e => handleChange(e, education.id)} />

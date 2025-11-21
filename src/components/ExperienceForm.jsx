@@ -30,7 +30,7 @@ export default function ExperienceForm({ info, setInfo }) {
             <h2>Experience</h2>
             {info.length > 0 && (
                 info.map(experience => {
-                    return <div key={experience.id}>
+                    return <div key={experience.id} className="entry">
                         <button type="button" onClick={() => removeExperience(experience.id)}>Remove</button>
                         <label>
                             Company name: <input type="text" name="company" value={experience.company} onChange={e => handleChange(e, experience.id)} />
