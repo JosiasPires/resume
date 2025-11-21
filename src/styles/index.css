@@ -41,6 +41,14 @@
     padding: 0;
 }
 
+:root {
+    --white: #ffffffff;
+    --toffee-brown: #926644ff;
+    --jungle-teal: #498467ff;
+    --black: #000000ff;
+    --prussian-blue: #011638ff;
+}
+
 body {
     font-family: "OpenSans", sans-serif;
 }
