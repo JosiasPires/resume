@@ -3,7 +3,7 @@ import GeneralForm from './GeneralForm';
 import EducationForm from './EducationForm';
 import ExperienceForm from './ExperienceForm';
 
-import './App.css'
+import '../styles/App.css'
 
 function App() {
   const [generalInfo, setGeneralInfo] = useState({
@@ -40,7 +40,7 @@ function App() {
         <EducationForm info={educationInfo} setInfo={setEducationInfo} />
         <ExperienceForm info={experienceInfo} setInfo={setExperienceInfo} />
       </form>
-      
+      <div id='#preview'></div>
     </>
   )
 }
