@@ -1,4 +1,4 @@
-export default function Education({info, setInfo}) {
+export default function EducationForm({info, setInfo}) {
     function handleChange(e, id) {
         const {name, value} = e.target;
 

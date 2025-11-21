@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import General from './General';
-import Education from './Education';
-import Experience from './Experience';
+import GeneralForm from './General';
+import EducationForm from './Education';
+import ExperienceForm from './Experience';
 
 import './App.css'
 
@@ -36,9 +36,9 @@ function App() {
   return (
     <>
       <form>
-        <General info={generalInfo} setInfo={setGeneralInfo}></General>
-        <Education info={educationInfo} setInfo={setEducationInfo}></Education>
-        <Experience info={experienceInfo} setInfo={setExperienceInfo}></Experience>
+        <GeneralForm info={generalInfo} setInfo={setGeneralInfo} />
+        <EducationForm info={educationInfo} setInfo={setEducationInfo} />
+        <ExperienceForm info={experienceInfo} setInfo={setExperienceInfo} />
       </form>
       
     </>

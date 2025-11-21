@@ -1,4 +1,4 @@
-export default function Experience({ info, setInfo }) {
+export default function ExperienceForm({ info, setInfo }) {
     function handleChange(e, id) {
         const {name, value} = e.target;
 

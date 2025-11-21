@@ -1,4 +1,4 @@
-export default function General( {info, setInfo} ) {
+export default function GeneralForm( {info, setInfo} ) {
 
     function handleChange(e) {
         const {name, value} = e.target;
