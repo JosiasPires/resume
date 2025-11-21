@@ -5,7 +5,8 @@ export default function GeneralForm( {info, setInfo} ) {
         setInfo({...info, [name]: value});
     }
     return (
-        <>
+        <div>
+            <h2>Personal Information</h2>
             <label>
                 Full Name: <input type="text" name="fullName" value={info.fullName} onChange={handleChange} />
             </label>
@@ -21,6 +22,6 @@ export default function GeneralForm( {info, setInfo} ) {
             <label>
                 Description: <input type="text" name="aboutMe" value={info.aboutMe} onChange={handleChange} />
             </label>
-        </>
+        </div>
     );
 }
