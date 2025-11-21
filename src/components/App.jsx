@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import GeneralForm from './General';
-import EducationForm from './Education';
-import ExperienceForm from './Experience';
+import GeneralForm from './GeneralForm';
+import EducationForm from './EducationForm';
+import ExperienceForm from './ExperienceForm';
 
 import './App.css'
 
