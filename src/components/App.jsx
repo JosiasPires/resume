@@ -2,6 +2,7 @@ import { useState } from 'react'
 import GeneralForm from './GeneralForm';
 import EducationForm from './EducationForm';
 import ExperienceForm from './ExperienceForm';
+import Preview from './Preview';
 
 import '../styles/App.css'
 
@@ -32,7 +33,7 @@ function App() {
       end: ''
     }
   ])
-
+  // change input to textArea, add description to education
   return (
     <>
       <form className='scroll-container'>
@@ -40,7 +41,7 @@ function App() {
         <EducationForm info={educationInfo} setInfo={setEducationInfo} />
         <ExperienceForm info={experienceInfo} setInfo={setExperienceInfo} />
       </form>
-      <div id='#preview'></div>
+      <Preview generalInfo={generalInfo} educationInfo={educationInfo} experienceInfo={experienceInfo} />
     </>
   )
 }
