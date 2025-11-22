@@ -50,7 +50,7 @@ export default function ExperienceForm({ info, setInfo }) {
                     </div>
                 })
             )}
-            <button type="button" onClick={addExperience}>Add experience</button>
+            <button type="button" onClick={addExperience}>Add Experience</button>
         </div>
     )
 }
