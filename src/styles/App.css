@@ -50,6 +50,10 @@ form > div {
     }
 }
 
+textarea {
+    resize: vertical;
+}
+
 label {
     display: flex;
     flex-direction: column;

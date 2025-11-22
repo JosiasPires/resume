@@ -39,7 +39,7 @@ export default function ExperienceForm({ info, setInfo }) {
                             Position: <input type="text" name="position" value={experience.position} onChange={e => handleChange(e, experience.id)} />
                         </label>
                         <label>
-                            Description: <input type="text" name="description" value={experience.description} onChange={e => handleChange(e, experience.id)} />
+                            Description: <textarea name="description" value={experience.description} onChange={e => handleChange(e, experience.id)} />
                         </label>
                         <label>
                             Start date: <input type="text" name="start" value={experience.start} onChange={e => handleChange(e, experience.id)} />
