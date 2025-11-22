@@ -19,6 +19,7 @@ function App() {
       id: crypto.randomUUID(),
       school: "TheOdinProject",
       course: "Web Development",
+      description: "I learned tools like HTML, CSS, JS and React",
       start: '2024',
       end: ''
     }

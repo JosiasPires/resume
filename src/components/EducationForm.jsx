@@ -38,6 +38,9 @@ export default function EducationForm({info, setInfo}) {
                             Course: <input type="text" name="course" value={education.course} onChange={e => handleChange(e, education.id)} />
                         </label>
                         <label>
+                            Description: <textarea name="description" value={education.description} onChange={e => handleChange(e, education.id)} />
+                        </label>
+                        <label>
                             Start date: <input type="text" name="start" value={education.start} onChange={e => handleChange(e, education.id)} />
                         </label>
                         <label>
