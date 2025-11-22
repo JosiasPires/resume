@@ -3,11 +3,11 @@ export default function Preview({generalInfo, educationInfo, experienceInfo}) {
         const endA = entryA.end === "" ? Infinity : entryA.end;
         const endB = entryB.end === "" ? Infinity : entryB.end;
 
-        if (endA > endB) return 1;
-        if (endA < endB) return -1;
+        if (endA < endB) return 1;
+        if (endA > endB) return -1;
 
-        if (entryA.start > entryB.start) return 1;
-        if (entryA.start < entryB.start) return -1;
+        if (entryA.start < entryB.start) return 1;
+        if (entryA.start > entryB.start) return -1;
 
         return 0;
     }
