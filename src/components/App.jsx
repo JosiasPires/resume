@@ -34,7 +34,6 @@ function App() {
       end: ''
     }
   ])
-  // change input to textArea, add description to education
   return (
     <>
       <form className='scroll-container'>
