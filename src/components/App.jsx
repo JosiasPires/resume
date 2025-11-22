@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <form>
+      <form className='scroll-container'>
         <GeneralForm info={generalInfo} setInfo={setGeneralInfo} />
         <EducationForm info={educationInfo} setInfo={setEducationInfo} />
         <ExperienceForm info={experienceInfo} setInfo={setExperienceInfo} />

@@ -5,7 +5,7 @@ export default function GeneralForm( {info, setInfo} ) {
         setInfo({...info, [name]: value});
     }
     return (
-        <div>
+        <div id="general">
             <h2>Personal Information</h2>
             <label>
                 Full Name: <input type="text" name="fullName" value={info.fullName} onChange={handleChange} />
