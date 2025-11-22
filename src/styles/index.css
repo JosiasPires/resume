@@ -55,6 +55,7 @@ body {
 #root {
     display: flex;
     padding: 2rem;
+    height: 100svh;
     gap: 2rem;
 }
 
